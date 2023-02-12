@@ -3,3 +3,6 @@ class RoomsController < ApplicationController
     @room = Room.new
   end
 end
+#params={room=>{name=>新規ルーム,user_ids=>[]}}
+
+#room[user_ids][]=room=>{user_ids=>[]}
